@@ -1,0 +1,79 @@
+name: Earnings Memo Agent
+
+# Runs automatically on a schedule, and can also be triggered manually from
+# the GitHub Actions tab (Actions -> Earnings Memo Agent -> Run workflow).
+on:
+  schedule:
+    # Cron times are in UTC. These two runs land ~roughly 9:00am and
+    # 5:00pm ET on weekdays (adjust by 1 hour around DST changes if you
+    # want to be precise) — one before market open, one after close,
+    # since companies release earnings at both times.
+    - cron: '0 13 * * 1-5'
+    - cron: '0 21 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-memos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install PDF tooling
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Run earnings memo agent
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Follow the instructions in EARNINGS_MEMO_AGENT.md exactly,
+            using holdings.csv as the list of companies to check.
+            This is an automated, unattended run - proceed without asking
+            for confirmation, and print a clear end-of-run summary (new
+            memos written, tickers skipped, tickers you couldn't reach).
+          claude_args: >-
+            --allowedTools "Read,Write,Edit,Bash,WebFetch,WebSearch"
+            --max-turns 80
+            --model claude-sonnet-4-6
+
+      - name: Commit any new/updated memos
+        id: commit
+        run: |
+          git config user.name "earnings-memo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add memos/ state/
+          if ! git diff --cached --quiet; then
+            CHANGED=$(git diff --cached --name-only -- memos/ | grep '_memo\.md$' | sed 's/^/<li>/;s/$/<\/li>/' || true)
+            git commit -m "Auto-update earnings memos $(date -u +'%Y-%m-%d')"
+            git push
+            echo "new_memos=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "changed_files<<EOF"
+              echo "$CHANGED"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "No new earnings found this run - nothing to commit."
+            echo "new_memos=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Email notification (via Gmail SMTP)
+        if: steps.commit.outputs.new_memos == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.GMAIL_USERNAME }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "New earnings memo(s) written"
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: Earnings Memo Bot <${{ secrets.GMAIL_USERNAME }}>
+          html_body: |
+            <p>New or updated investment memos were just written:</p>
+            <ul>
+            ${{ steps.commit.outputs.changed_files }}
+            </ul>
+            <p><a href="https://github.com/${{ github.repository }}/tree/main/memos">View memos in the repo</a></p>

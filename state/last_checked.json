@@ -1,0 +1,50 @@
+{
+  "META": {
+    "company": "Meta Platforms Inc.",
+    "exchange": "NASDAQ",
+    "ir_url": "https://investor.atmeta.com/",
+    "last_earnings_date": "2026-04-29",
+    "last_period": "Q1 FY2026",
+    "last_run": "2026-07-09",
+    "memo": "memos/META/META_2026-04-29_memo.md"
+  },
+  "WFC": {
+    "company": "Wells Fargo & Company",
+    "exchange": "NYSE",
+    "ir_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+    "last_earnings_date": "2026-04-14",
+    "last_period": "Q1 FY2026",
+    "last_run": "2026-07-09",
+    "memo": "memos/WFC/WFC_2026-04-14_memo.md",
+    "note": "Q2 2026 reports 2026-07-14 — re-run after that date."
+  },
+  "MTY": {
+    "company": "MTY Food Group Inc.",
+    "exchange": "TSX",
+    "ir_url": "https://mtygroup.com/en/investors/",
+    "last_earnings_date": "2026-04-10",
+    "last_period": "Q1 FY2026 (qtr ended 2026-02-28)",
+    "last_run": "2026-07-09",
+    "memo": "memos/MTY/MTY_2026-04-10_memo.md",
+    "note": "Fiscal year ends ~Nov 30. Q2 FY2026 (ended ~2026-05-31) expected mid-July 2026."
+  },
+  "HME": {
+    "company": "Hemisphere Energy Corporation",
+    "exchange": "TSXV",
+    "ir_url": "https://www.hemisphereenergy.ca/news",
+    "last_earnings_date": "2026-05-13",
+    "last_period": "Q1 2026 (qtr ended 2026-03-31)",
+    "last_run": "2026-07-09",
+    "memo": "memos/HME/HME_2026-05-13_memo.md"
+  },
+  "ZC": {
+    "company": "Zimtu Capital Corp.",
+    "exchange": "TSXV",
+    "ir_url": "https://www.zimtu.com/financial-statements/",
+    "last_earnings_date": "2026-03-26",
+    "last_period": "FY2025 (year ended 2025-11-30)",
+    "last_run": "2026-07-09",
+    "memo": "memos/ZC/ZC_2026-03-26_memo.md",
+    "note": "No earnings press releases; filings via SEDAR+/site. FY ends Nov 30. FLAG: Q1 FY2026 interim (ended 2026-02-28) not on company site as of 2026-07-09 — check SEDAR+ manually; may supersede this memo."
+  }
+}
