@@ -59,6 +59,9 @@
 ### FULL-RUN SUMMARY (2026-07-11 to 2026-07-13): 35 remaining tickers processed, 35 memos written (40/40 holdings now covered incl. the 5 pilot).
 Manual-follow-up flags: JTC & IMI (thin/cease-trade — verify on SEDAR+); HYFT (NASDAQ vs csv OTC; FY-end results 2026-07-22); IIP.UN (privatized/delisted 2026-07-09 — remove from monitoring). Corporate events: AAUC (Zijin acquisition pending), IIP.UN (privatization completed), SRG (going concern). Not-yet-reported (skipped, no new earnings): WFC Q2 (2026-07-14), HYFT FY (2026-07-22), MTY Q2, plus half-yearly reporters (IWG/FRVIA/STLA H1 ~late July/Aug).
 
+## Step 4 — ZC SEDAR+ follow-up (2026-07-13)
+- Attempted to close the ZC Q1 FY2026 interim gap. Findings: interim (period ended 2026-02-28) almost certainly filed ~2026-04-20 (per investing.com "latest earnings release date"), but (a) still not on zimtu.com, (b) SEDAR+ (sedarplus.ca) redirects bots to a ShieldSquare/PerfDrive CAPTCHA wall — not fetchable, (c) aggregators carry only annual data. Updated ZC memo + state with revised flag: MANUAL SEDAR+ download required. Memo remains on FY2025 audited annual pending retrieval. No material change to the memo's substance (Zimtu = MTM of portfolio; interim would update NAV).
+
 ### Quality review pass (2026-07-09):
 - WFC: upgraded from secondary→PRIMARY. Text-extracted the saved release PDF with pdftotext; confirmed ROE 12.2%/ROTCE 14.5%/efficiency 67%/CET1 10.3%/$4.0B buyback. Corrected a misattributed CEO quote (the "operational leverage" line was a secondary paraphrase, not in the release) → replaced with verbatim Scharf quote. Added EPS +15% YoY ($1.60 vs $1.39) and the $135M/$0.04 discrete tax benefit that was in the headline EPS.
 - MTY: clarified that the $605.1M "long-term debt" IS the revolver draw (not additive); net debt ~$549M, ~2.3x [EST].
