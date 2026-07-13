@@ -8,7 +8,7 @@ memo for a quarter that's already been covered — only act on genuinely new
 releases.
 
 ## Setup (run once)
-1. Read `holdings.csv` (columns: Ticker, Company Name, Exchange).
+1. Read `holdings.csv` (columns: Ticker, Company Name, Exchange, Monitoring).
 2. Create this folder structure if it doesn't exist:
    ```
    /memos/{TICKER}/                <- one folder per holding
@@ -21,8 +21,27 @@ releases.
    like Yahoo Finance or Simply Wall St). Save it to the state file so future
    runs don't need to re-search.
 
+## Monitoring exceptions & filing-source routing
+- **Monitoring column.** In automated/unattended runs, only poll rows where
+  `Monitoring = auto`. **Skip rows where `Monitoring = manual`** — these are thin-traded
+  or cease-trade names whose filings can't be pulled reliably by the bot (e.g., SEDAR+
+  anti-bot walls). They live on the quarterly manual-review list in
+  `state/manual_review.md`, where a human pulls the filings by hand.
+  (Currently manual: **ZC, IMI, JTC**.)
+- **Delisted / acquired names are removed from `holdings.csv` entirely** — do not keep a
+  "delisted" tombstone row. If a holding is taken private/acquired, drop its row.
+  (Removed 2026-07-13: **IIP.UN** — privatized at $13.55/unit, delisted from TSX.)
+- **Route the primary filing source by `Exchange`:**
+  - `NASDAQ` / `NYSE` / `NYSE American` / `OTC` / `OTCQX` → **SEC EDGAR** (10-Q/10-K/8-K)
+    + company IR. Foreign private issuers (e.g., BABA, HYFT) file **6-K/20-F** on EDGAR.
+  - `TSX` / `TSXV` / `CSE` → **SEDAR+** (sedarplus.ca) + company IR. SEDAR+ blocks automated
+    fetches, so prefer the company's own IR press release / posted PDF; if only SEDAR+ has
+    it, that's a signal to route the ticker to manual review.
+  - `LSE` (AIM) → **RNS** via LSE/Investegate; reports half-yearly + trading updates.
+  - `Euronext Paris` → company IR; reports half-yearly + quarterly sales updates.
+
 ## Every time you're run (this is the repeatable step)
-For each ticker in `holdings.csv`:
+For each ticker in `holdings.csv` **with `Monitoring = auto`**:
 
 1. Visit its saved IR URL (or the earnings/press-release/news subpage).
 2. Identify the most recent quarterly or annual earnings release date.

@@ -45,6 +45,7 @@
     "last_period": "FY2025 (year ended 2025-11-30)",
     "last_run": "2026-07-09",
     "memo": "memos/ZC/ZC_2026-03-26_memo.md",
+    "monitoring": "manual",
     "note": "No earnings press releases; filings via SEDAR+/site. FY ends Nov 30. Q1 FY2026 interim (ended 2026-02-28) LIKELY FILED ~2026-04-20 but NOT on company site; SEDAR+ blocks automated fetch (bot wall). MANUAL SEDAR+ download required to update NAV; would supersede FY2025-annual memo."
   },
   "BAC": {
@@ -223,17 +224,6 @@
     "memo": "memos/FRVIA/FRVIA_2026-04-24_memo.md",
     "note": "Reports full P&L half-yearly; Q1 is a sales-only update. Next: H1 2026 (~late July 2026)."
   },
-  "IIP.UN": {
-    "company": "InterRent Real Estate Investment Trust",
-    "exchange": "TSX",
-    "ir_url": "https://www.irent.com/investors",
-    "last_earnings_date": "2026-05-04",
-    "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
-    "memo": "memos/IIP.UN/IIP.UN_2026-05-04_memo.md",
-    "status": "DELISTED / ACQUIRED",
-    "note": "PRIVATIZATION COMPLETED 2026-07-09 at $13.55/unit cash (CLV Group + GIC). Delisted from TSX; no longer a reporting issuer. REMOVE from ongoing monitoring; confirm cash proceeds received."
-  },
   "FOOD": {
     "company": "Goodfood Market Corp.",
     "exchange": "TSX",
@@ -362,6 +352,7 @@
     "last_period": "latest ~2026 (period not pinned)",
     "last_run": "2026-07-13",
     "memo": "memos/JTC/JTC_2026-status_memo.md",
+    "monitoring": "manual",
     "status": "FLAG — thin disclosure",
     "note": "No earnings press releases; SEDAR+ only. Figures aggregator-sourced [UNVERIFIED]. MANUAL SEDAR+ check needed. FY-end ~July 31 (confirm)."
   },
@@ -373,18 +364,19 @@
     "last_period": "FY2025 annual (yr ended 2025-11-30); Q1 FY2026 interim DELAYED",
     "last_run": "2026-07-13",
     "memo": "memos/IMI/IMI_2026-04-13_memo.md",
+    "monitoring": "manual",
     "status": "FLAG — Management Cease Trade Order",
     "note": "MCTO effective 2026-04-30 (late Q1 interim, period ended 2026-02-28). Loss-making. Next update ~2026-08-31. Verify status on SEDAR+."
   },
   "HYFT": {
     "company": "MindWalk Holdings Corp. (formerly ImmunoPrecise Antibodies)",
-    "exchange": "NASDAQ (holdings.csv says OTC — CONFIRM)",
+    "exchange": "NASDAQ",
     "ir_url": "https://www.mindwalk.com",
     "last_earnings_date": "2026-03-12",
     "last_period": "Q3 FY2026 (qtr ended 2026-01-31)",
     "last_run": "2026-07-13",
     "memo": "memos/HYFT/HYFT_2026-03-12_memo.md",
-    "note": "FY ends ~Apr 30. Revenue +52%, $14.2M cash. FULL-YEAR FY2026 results due 2026-07-22 — re-run after. Ticker/exchange discrepancy vs csv."
+    "note": "Exchange corrected to NASDAQ (foreign private issuer; files 6-K on EDGAR; formerly ImmunoPrecise). FY ends ~Apr 30. Revenue +52%, $14.2M cash. FULL-YEAR FY2026 results due 2026-07-22 — re-run after."
   },
   "IDWM": {
     "company": "IDW Media Holdings Inc.",
