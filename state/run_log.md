@@ -68,3 +68,18 @@ Manual-follow-up flags: JTC & IMI (thin/cease-trade — verify on SEDAR+); HYFT 
 - META, HME, ZC: numbers reconciled internally (EPS×shares ≈ net income; netback×volume ≈ total; NAV math); flags appropriate; no corrections needed.
 
 ### Pilot summary (2026-07-09): 5 tickers checked, 5 memos written (META, WFC, MTY, HME all had new quarterly earnings; ZC latest was FY2025 annual). Tooling notes: SEC.gov + streetinsider return 403 to WebFetch (use official IR/newswire mirrors); local env has pdftotext (mingw64) but NOT pdftoppm, so Read-on-PDF fails — use `pdftotext -layout` via Bash for PDF filings. Open follow-up: verify ZC Q1 FY2026 interim on SEDAR+.
+
+## Run 2026-07-14
+- WFC  | Q2 FY2026 (2026-07-14) | memo: memos/WFC/WFC_2026-07-14_memo.md | PRIMARY: press release PDF downloaded via curl + pdftotext; presentation PDF also saved. EPS $2.00 (+25% YoY), ROTCE 17.7%, efficiency ratio 60%, loans +12% YoY, Q3 div raised to $0.50.
+- BAC  | Q2 FY2026 (2026-07-14) | memo: memos/BAC/BAC_2026-07-14_memo.md | PRIMARY: investor presentation PDF downloaded via curl + pdftotext. EPS $1.21 (+34% YoY, beat est.), ROTCE 17.0%, NII $16.0B (+9% YoY), FY2026 NII guidance raised to upper end of 6-8%.
+- MTY  | Q2 FY2026 (2026-07-10) | memo: memos/MTY/MTY_2026-07-10_memo.md | PRIMARY: GlobeNewswire press release (2026-07-10). Revenue -8.2% YoY, EPS $0.67 (vs $2.49), FCF $32.2M solid; 68 corporate stores to close.
+
+Skipped (no new earnings since last check): META, GO.U, SRG, IWG, EBAY, BABA, AXP, SD, GNE, NC, MOV, TIG, RIG, B, HYFT, STLA, OTCM, IDWM, BHM, FRVIA, AAUC, URL, LTC, FOOD, SEC, VLE, HME, MMY, RET.A, AEP, TMG, RW, GVC (33 tickers).
+Skipped (manual monitoring): JTC, IMI, ZC.
+
+Notable non-earnings events:
+- SRG: $50M term loan due 2026-07-31 — refinancing discussions ongoing as of Q1; no resolution confirmed by 2026-07-14. URGENT watch.
+- VLE: Q2 2026 ops update (2026-07-09) — record revenue US$259.8M, cash US$316.5M, anticipated FCF ~US$100M; full Q2 financials due 2026-08-06.
+- AXP: Q2 2026 reports 2026-07-24. EBAY/META: both report 2026-07-29. FRVIA H1: 2026-07-31. HYFT FY2026: 2026-07-22.
+
+### Run 2026-07-14 Summary: 36 auto tickers checked, 3 new memos written (WFC, BAC, MTY). 33 tickers had no new earnings. 3 manual tickers skipped as designed.

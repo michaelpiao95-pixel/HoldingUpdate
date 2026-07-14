@@ -2,31 +2,32 @@
   "META": {
     "company": "Meta Platforms Inc.",
     "exchange": "NASDAQ",
-    "ir_url": "https://investor.atmeta.com/",
+    "ir_url": "https://investor.atmeta.com/investor-news/",
     "last_earnings_date": "2026-04-29",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-09",
-    "memo": "memos/META/META_2026-04-29_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/META/META_2026-04-29_memo.md",
+    "note": "Q2 2026 reports 2026-07-29. Revenue guidance $58-61B."
   },
   "WFC": {
     "company": "Wells Fargo & Company",
     "exchange": "NYSE",
     "ir_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
-    "last_earnings_date": "2026-04-14",
-    "last_period": "Q1 FY2026",
-    "last_run": "2026-07-09",
-    "memo": "memos/WFC/WFC_2026-04-14_memo.md",
-    "note": "Q2 2026 reports 2026-07-14 — re-run after that date."
+    "last_earnings_date": "2026-07-14",
+    "last_period": "Q2 FY2026",
+    "last_run": "2026-07-14",
+    "memo": "memos/WFC/WFC_2026-07-14_memo.md",
+    "note": "EPS $2.00 (+25% YoY), ROTCE 17.7%, efficiency ratio 60%. Q3 div raised to $0.50/share (+11%). Q3 2026 reports ~mid-Oct 2026."
   },
   "MTY": {
     "company": "MTY Food Group Inc.",
     "exchange": "TSX",
     "ir_url": "https://mtygroup.com/en/investors/",
-    "last_earnings_date": "2026-04-10",
-    "last_period": "Q1 FY2026 (qtr ended 2026-02-28)",
-    "last_run": "2026-07-09",
-    "memo": "memos/MTY/MTY_2026-04-10_memo.md",
-    "note": "Fiscal year ends ~Nov 30. Q2 FY2026 (ended ~2026-05-31) expected mid-July 2026."
+    "last_earnings_date": "2026-07-10",
+    "last_period": "Q2 FY2026 (13wks ended ~2026-05-31)",
+    "last_run": "2026-07-14",
+    "memo": "memos/MTY/MTY_2026-07-10_memo.md",
+    "note": "FY ends ~Nov 30. Revenue -8.2% YoY; SSS -2.1%. 68 underperforming corporate stores being closed over 9 months. Q3 FY2026 (ending ~Aug 30) expected mid-Oct 2026."
   },
   "HME": {
     "company": "Hemisphere Energy Corporation",
@@ -34,8 +35,9 @@
     "ir_url": "https://www.hemisphereenergy.ca/news",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 2026 (qtr ended 2026-03-31)",
-    "last_run": "2026-07-09",
-    "memo": "memos/HME/HME_2026-05-13_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/HME/HME_2026-05-13_memo.md",
+    "note": "Q2 2026 results scheduled 2026-08-13."
   },
   "ZC": {
     "company": "Zimtu Capital Corp.",
@@ -52,11 +54,11 @@
     "company": "Bank of America Corporation",
     "exchange": "NYSE",
     "ir_url": "https://investor.bankofamerica.com",
-    "last_earnings_date": "2026-04-15",
-    "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
-    "memo": "memos/BAC/BAC_2026-04-15_memo.md",
-    "note": "Q2 2026 reports ~mid-July 2026."
+    "last_earnings_date": "2026-07-14",
+    "last_period": "Q2 FY2026",
+    "last_run": "2026-07-14",
+    "memo": "memos/BAC/BAC_2026-07-14_memo.md",
+    "note": "EPS $1.21 (+34% YoY), ROTCE 17.0%, NII $16.0B (+9% YoY). FY2026 NII guidance raised to 'upper end' of 6-8% growth. Q3 2026 reports ~mid-Oct 2026."
   },
   "AXP": {
     "company": "American Express Company",
@@ -64,9 +66,9 @@
     "ir_url": "https://ir.americanexpress.com",
     "last_earnings_date": "2026-04-23",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/AXP/AXP_2026-04-23_memo.md",
-    "note": "Q2 2026 reports ~mid/late-July 2026."
+    "note": "Q2 2026 reports 2026-07-24. Earnings call 8:30am ET."
   },
   "EBAY": {
     "company": "eBay Inc.",
@@ -74,8 +76,9 @@
     "ir_url": "https://investors.ebayinc.com",
     "last_earnings_date": "2026-04-29",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
-    "memo": "memos/EBAY/EBAY_2026-04-29_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/EBAY/EBAY_2026-04-29_memo.md",
+    "note": "Q2 2026 reports 2026-07-29. Q2 guidance: GMV $21.3-21.7B, revenue $2.97-3.03B."
   },
   "BABA": {
     "company": "Alibaba Group Holding Limited",
@@ -83,9 +86,9 @@
     "ir_url": "https://www.alibabagroup.com/en-US/ir-financial-reports",
     "last_earnings_date": "2026-05-12",
     "last_period": "March Quarter FY2026 (qtr ended 2026-03-31)",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/BABA/BABA_2026-05-12_memo.md",
-    "note": "Fiscal year ends Mar 31. Reports in RMB."
+    "note": "Fiscal year ends Mar 31. Reports in RMB. June quarter (Q1 FY2027) due ~Aug 2026."
   },
   "STLA": {
     "company": "Stellantis N.V.",
@@ -93,9 +96,9 @@
     "ir_url": "https://www.stellantis.com/en/investors/reporting/quarterly-results-materials",
     "last_earnings_date": "2026-04-30",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/STLA/STLA_2026-04-30_memo.md",
-    "note": "Full P&L is half-yearly; Q1 is revenues/shipments + AOI summary. Next full financials H1 2026 (~late July 2026)."
+    "note": "Full P&L is half-yearly; Q1 is revenues/shipments + AOI summary. H1 2026 full financials expected late July/early Aug 2026. H1 US sales +5% YoY."
   },
   "RIG": {
     "company": "Transocean Ltd.",
@@ -103,8 +106,9 @@
     "ir_url": "https://www.deepwater.com/investor-relations",
     "last_earnings_date": "2026-05-04",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
-    "memo": "memos/RIG/RIG_2026-05-04_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/RIG/RIG_2026-05-04_memo.md",
+    "note": "Q2 2026 typically early Aug."
   },
   "SD": {
     "company": "SandRidge Energy Inc.",
@@ -112,8 +116,9 @@
     "ir_url": "https://www.sandridgeenergy.com/investors",
     "last_earnings_date": "2026-05-06",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
-    "memo": "memos/SD/SD_2026-05-06_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/SD/SD_2026-05-06_memo.md",
+    "note": "Q2 2026 typically early Aug."
   },
   "SRG": {
     "company": "Seritage Growth Properties",
@@ -121,9 +126,9 @@
     "ir_url": "https://www.seritage.com/investors",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/SRG/SRG_2026-05-13_memo.md",
-    "note": "GOING CONCERN: $50M term loan due 2026-07-31. Wind-down/strategic review. Watch refinancing."
+    "note": "GOING CONCERN: $50M term loan due 2026-07-31 — refinancing discussions were ongoing as of Q1 2026 (no resolution confirmed by 2026-07-14). Wind-down/strategic review. URGENT: verify loan outcome before/after July 31."
   },
   "BHM": {
     "company": "Bluerock Homes Trust Inc.",
@@ -131,9 +136,9 @@
     "ir_url": "https://bluerock.com/bluerock-homes-trust/investors/",
     "last_earnings_date": "2026-05-07",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/BHM/BHM_2026-05-07_memo.md",
-    "note": "NAV/FFO not captured this run — pull estimated NAV/share from 8-K/supplement next time."
+    "note": "NAV/FFO not captured this run — pull estimated NAV/share from 8-K/supplement next time. Q2 2026 typically early Aug."
   },
   "GNE": {
     "company": "Genie Energy Ltd.",
@@ -141,66 +146,67 @@
     "ir_url": "https://www.genie.com/investors/",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-11",
+    "last_run": "2026-07-14",
     "memo": "memos/GNE/GNE_2026-05-13_memo.md",
-    "note": "Cut FY2026 adj EBITDA guidance to $32.5-40M."
+    "note": "Cut FY2026 adj EBITDA guidance to $32.5-40M (March 2026 prelim showed FY2025 ops income $27.7M, FY2024 restatement in progress). Q2 2026 typically early Aug."
   },
   "NC": {
     "company": "NACCO Industries Inc.",
     "exchange": "NYSE",
-    "ir_url": "https://www.nacco.com",
+    "ir_url": "https://www.nacco.com/investor-relations",
     "last_earnings_date": "2026-05-05",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
-    "memo": "memos/NC/NC_2026-05-05_memo.md"
+    "last_run": "2026-07-14",
+    "memo": "memos/NC/NC_2026-05-05_memo.md",
+    "note": "Q2 2026 typically early Aug."
   },
   "MOV": {
     "company": "Movado Group Inc.",
     "exchange": "NYSE",
-    "ir_url": "https://investors.movadogroup.com",
+    "ir_url": "https://investors.movadogroup.com/news-releases",
     "last_earnings_date": "2026-05-27",
     "last_period": "Q1 FY2027 (qtr ended 2026-04-30)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/MOV/MOV_2026-05-27_memo.md",
-    "note": "Fiscal year ends Jan 31."
+    "note": "Fiscal year ends Jan 31. Q2 FY2027 (qtr ending Jul 31) due ~Sept 2026."
   },
   "B": {
     "company": "Barrick Mining Corporation",
     "exchange": "NYSE/TSX",
-    "ir_url": "https://www.barrick.com",
+    "ir_url": "https://www.barrick.com/investors/news/press-releases/",
     "last_earnings_date": "2026-05-11",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/B/B_2026-05-11_memo.md",
-    "note": "New $3.0B buyback authorized; base div $0.175/qtr."
+    "note": "New $3.0B buyback authorized; base div $0.175/qtr. Q2 FY2026 due early Aug 2026."
   },
   "AAUC": {
     "company": "Allied Gold Corporation",
     "exchange": "TSX",
-    "ir_url": "https://alliedgold.com/investor-relations",
+    "ir_url": "https://alliedgold.com/investor-relations/press-releases",
     "last_earnings_date": "2026-05-14",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/AAUC/AAUC_2026-05-14_memo.md",
-    "note": "PENDING ACQUISITION by Zijin Gold — thesis is now deal/arb-driven."
+    "note": "PENDING ACQUISITION by Zijin Gold — thesis is now deal/arb-driven. Q2 due ~Aug 2026."
   },
   "VLE": {
     "company": "Valeura Energy Inc.",
     "exchange": "TSX",
-    "ir_url": "https://www.valeuraenergy.com",
+    "ir_url": "https://www.valeuraenergy.com/news",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/VLE/VLE_2026-05-13_memo.md",
-    "note": "Q1 optically weak on lifting timing (March liftings sold in April); net cash US$261.6M."
+    "note": "Q1 optically weak on lifting timing. Q2 2026 OPERATIONS UPDATE (2026-07-09): record revenue US$259.8M, cash US$316.5M, anticipated record FCF ~US$100M, no debt. FULL Q2 FINANCIAL RESULTS DUE 2026-08-06 — re-run after."
   },
   "IWG": {
     "company": "International Workplace Group plc",
     "exchange": "LSE",
-    "ir_url": "https://investors.iwgplc.com",
+    "ir_url": "https://investors.iwgplc.com/news-and-events/press-releases",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 FY2026 trading update",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/IWG/IWG_2026-05-13_memo.md",
     "note": "Reports full P&L half-yearly; Q1 is a trading update. Q1 date approximate. Next: H1 2026 (~Aug 2026)."
   },
@@ -210,19 +216,19 @@
     "ir_url": "https://www.teaminternet.com/investors",
     "last_earnings_date": "2026-06-01",
     "last_period": "FY2025 results + 2026 YTD trading update (5mo to 2026-05-31)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/TIG/TIG_2026-06_memo.md",
-    "note": "Exact RNS dates not pinned [approximate]. DIS-segment disposal review outcome due ~H1 Q3 2026. Verdane/TowerBrook takeover approaches (2025) did not proceed."
+    "note": "Exact RNS dates not pinned [approximate]. DIS-segment disposal review outcome due ~H1 Q3 2026. Verdane/TowerBrook takeover approaches (2025) did not proceed. H1 2026 full results ~Sept 2026."
   },
   "FRVIA": {
     "company": "Forvia SE",
     "exchange": "Euronext Paris",
-    "ir_url": "https://www.forvia.com/en/finance",
+    "ir_url": "https://www.forvia.com/en/finance/publications-and-results",
     "last_earnings_date": "2026-04-24",
     "last_period": "Q1 FY2026 sales update",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/FRVIA/FRVIA_2026-04-24_memo.md",
-    "note": "Reports full P&L half-yearly; Q1 is a sales-only update. Next: H1 2026 (~late July 2026)."
+    "note": "Reports full P&L half-yearly; Q1 is a sales-only update. H1 2026 full results scheduled 2026-07-31."
   },
   "FOOD": {
     "company": "Goodfood Market Corp.",
@@ -230,19 +236,19 @@
     "ir_url": "https://www2.makegoodfood.ca/en/investisseurs/communiques",
     "last_earnings_date": "2026-04-21",
     "last_period": "Q2 FY2026 (13 wks ended 2026-03-07)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/FOOD/FOOD_2026-04-21_memo.md",
-    "note": "Fiscal year ends ~early Sept. CFIA licence suspension hit Q2; strategic reset."
+    "note": "Fiscal year ends ~early Sept. CFIA licence suspension hit Q2; strategic reset. Q3 FY2026 (ending ~June 2026) due ~Aug 2026."
   },
   "SEC": {
     "company": "Senvest Capital Inc.",
     "exchange": "TSX",
-    "ir_url": "https://www.senvest.com",
+    "ir_url": "https://www.senvest.com/investor-relations",
     "last_earnings_date": "2026-05-15",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/SEC/SEC_2026-05-15_memo.md",
-    "note": "Investment holdco; watch BVPS/NAV (exact BVPS unconfirmed — verify next run). Net loss much smaller than Q1'25."
+    "note": "Investment holdco; watch BVPS/NAV (exact BVPS unconfirmed — verify next run). Net loss much smaller than Q1'25. Q2 due ~Aug 2026."
   },
   "OTCM": {
     "company": "OTC Markets Group Inc.",
@@ -250,9 +256,9 @@
     "ir_url": "https://www.otcmarkets.com/corporate/investor-relations",
     "last_earnings_date": "2026-05-07",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/OTCM/OTCM_2026-05-07_memo.md",
-    "note": "Date approximate. Adjusted-EPS $0.93 figure is secondary/[UNVERIFIED]."
+    "note": "Date approximate. Adjusted-EPS $0.93 figure is secondary/[UNVERIFIED]. Q2 typically early Aug."
   },
   "RET.A": {
     "company": "Reitmans (Canada) Limited",
@@ -260,9 +266,9 @@
     "ir_url": "https://reitmans.mediaroom.com",
     "last_earnings_date": "2026-06-16",
     "last_period": "Q1 FY2027 (qtr ended 2026-05-02)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/RET.A/RET.A_2026-06-16_memo.md",
-    "note": "FY ends ~early Feb; fiscal-year label to confirm. Non-voting class."
+    "note": "FY ends ~early Feb; fiscal-year label to confirm. Non-voting class. Q2 FY2027 due ~Oct 2026."
   },
   "GO.U": {
     "company": "GO Residential Real Estate Investment Trust",
@@ -270,9 +276,9 @@
     "ir_url": "https://investors.goresidentialreit.com",
     "last_earnings_date": "2026-05-13",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/GO.U/GO.U_2026-05-13_memo.md",
-    "note": "Date approximate. Luxury Manhattan multifamily; beat IPO forecast; 4 acquisitions announced."
+    "note": "Date approximate. Luxury Manhattan multifamily; beat IPO forecast; 4 acquisitions announced. Q2 due ~Aug 2026."
   },
   "URL": {
     "company": "NameSilo Technologies Corp.",
@@ -280,69 +286,69 @@
     "ir_url": "https://www.namesilo.com/technologies",
     "last_earnings_date": "2026-06-02",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/URL/URL_2026-06-02_memo.md",
-    "note": "Domain registrar diversifying via acquisitions (SewerVue, Reach Systems); debt-free."
+    "note": "Domain registrar diversifying via acquisitions (SewerVue, Reach Systems); debt-free. Q2 due ~late Aug/Sept 2026."
   },
   "MMY": {
     "company": "Monument Mining Limited",
     "exchange": "TSXV",
-    "ir_url": "https://monumentmining.com",
+    "ir_url": "https://monumentmining.com/news",
     "last_earnings_date": "2026-06-01",
     "last_period": "Q3 FY2026 (qtr ended 2026-03-31)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/MMY/MMY_2026-06-01_memo.md",
     "note": "Fiscal year ends June 30. Q4 FY2026 (ended 2026-06-30) due ~Sept/Oct 2026. ~US$102M cash; special dividend paid Jan 2026."
   },
   "LTC": {
     "company": "Lotus Creek Exploration Inc.",
     "exchange": "TSXV",
-    "ir_url": "https://www.lotuscreekexploration.com",
+    "ir_url": "https://www.lotuscreekexploration.com/news",
     "last_earnings_date": "2026-04-27",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/LTC/LTC_2026-04-27_memo.md",
-    "note": "Early-stage light-oil junior; heavy 2026 growth capex ($42M budget), targeting ~4,000 boe/d by Q4 2026. Detailed Q1 financials not captured — confirm SEDAR+."
+    "note": "Early-stage light-oil junior; heavy 2026 growth capex ($42M budget), targeting ~4,000 boe/d by Q4 2026. Detailed Q1 financials not captured — confirm SEDAR+. Q2 due ~Aug 2026."
   },
   "AEP": {
     "company": "Atlas Engineered Products Ltd.",
     "exchange": "TSXV",
-    "ir_url": "https://atlasengineeredproducts.com",
+    "ir_url": "https://atlasengineeredproducts.com/news",
     "last_earnings_date": "2026-05-28",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/AEP/AEP_2026-05-28_memo.md",
-    "note": "Date approximate. Weak seasonal Q1 (EBITDA loss); robotic truss facility (Clinton ON) ~July 2026."
+    "note": "Date approximate. Weak seasonal Q1 (EBITDA loss); robotic truss facility (Clinton ON) ~July 2026. Q2 due ~Aug 2026."
   },
   "TMG": {
     "company": "Thermal Energy International Inc.",
     "exchange": "TSXV",
-    "ir_url": "https://thermalenergy.com",
+    "ir_url": "https://thermalenergy.com/news",
     "last_earnings_date": "2026-04-15",
     "last_period": "Q3 FY2026 (qtr ended ~2026-02-28)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/TMG/TMG_2026-04_memo.md",
     "note": "Fiscal year ends May 31. Q3 date + Q3 profit detail not pinned [approximate/not captured] — confirm SEDAR+. FY-end Q4 (May 31) due ~Aug/Sept 2026."
   },
   "GVC": {
     "company": "Glacier Media Inc.",
     "exchange": "TSXV",
-    "ir_url": "https://www.glaciermedia.ca",
+    "ir_url": "https://www.glaciermedia.ca/investors",
     "last_earnings_date": "2026-05-07",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/GVC/GVC_2026-05-07_memo.md",
-    "note": "Print-to-data/digital transition; EBITDA turned positive on cost cuts."
+    "note": "Print-to-data/digital transition; EBITDA turned positive on cost cuts. Q2 2026 scheduled 2026-08-06."
   },
   "RW": {
-    "company": "Renoworks Software Inc.",
+    "company": "RenoWorks Software Inc.",
     "exchange": "TSXV",
     "ir_url": "https://www.renoworks.com/investors",
     "last_earnings_date": "2026-05-27",
     "last_period": "Q1 FY2026",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/RW/RW_2026-05-27_memo.md",
-    "note": "SaaS transition; recurring rev +36%, 80% GM, still net loss."
+    "note": "SaaS transition; recurring rev +36%, 80% GM, still net loss. Q2 due ~Aug 2026."
   },
   "JTC": {
     "company": "JEMTEC Inc.",
@@ -371,21 +377,21 @@
   "HYFT": {
     "company": "MindWalk Holdings Corp. (formerly ImmunoPrecise Antibodies)",
     "exchange": "NASDAQ",
-    "ir_url": "https://www.mindwalk.com",
+    "ir_url": "https://www.mindwalk.com/investor-relations",
     "last_earnings_date": "2026-03-12",
     "last_period": "Q3 FY2026 (qtr ended 2026-01-31)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/HYFT/HYFT_2026-03-12_memo.md",
     "note": "Exchange corrected to NASDAQ (foreign private issuer; files 6-K on EDGAR; formerly ImmunoPrecise). FY ends ~Apr 30. Revenue +52%, $14.2M cash. FULL-YEAR FY2026 results due 2026-07-22 — re-run after."
   },
   "IDWM": {
     "company": "IDW Media Holdings Inc.",
     "exchange": "OTC",
-    "ir_url": "https://www.idwmediaholdings.com",
+    "ir_url": "https://www.idwmediaholdings.com/investor-relations",
     "last_earnings_date": "2026-06-15",
     "last_period": "Q2 FY2026 (qtr ended 2026-04-30)",
-    "last_run": "2026-07-13",
+    "last_run": "2026-07-14",
     "memo": "memos/IDWM/IDWM_2026-06-15_memo.md",
-    "note": "FY ends Oct 31. Date approximate. Turnaround: rev +16%, H1 net loss just -$3K. SEC CIK 1463833."
+    "note": "FY ends Oct 31. Date approximate. Turnaround: rev +16%, H1 net loss just -$3K. SEC CIK 1463833. Q3 due ~Sept 2026."
   }
 }
